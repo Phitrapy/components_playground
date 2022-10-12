@@ -8,13 +8,22 @@ main {
   width: 100vw;
   height: 100vh;
   background: rgb(227, 240, 255);
+  display: grid;
+  grid-template-rows: auto 1fr;
 }
 
 .panel-layout {
   display: flex;
   justify-content: center;
-  position: absolute;
-  bottom: 0px;
-  padding: auto;
+  align-items: center;
   width: 100%;
+  height: 100;
+}
+
+.content {
+  width: 20em;
+  height: 20em;
+  background-color: white;
+  border-radius: 2rem;
+  box-shadow: -0.4rem -0.4rem 0.4rem grey;
 }
