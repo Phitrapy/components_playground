@@ -4,6 +4,14 @@ body {
   margin: 0;
 }
 
+a {
+  color: orange;
+}
+
+a:visited {
+  color: violet;
+}
+
 main {
   width: 100vw;
   height: 100vh;
